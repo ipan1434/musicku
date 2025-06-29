@@ -8,17 +8,17 @@ load_dotenv()
 
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH", "")
+API_ID = int(getenv("API_ID", "27883552"))
+API_HASH = getenv("API_HASH", "03e8a15853d2aa580c52aea314d26711")
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "")
+BOT_TOKEN = getenv("BOT_TOKEN", "7668365830:AAGuH_p4NxC6Cxi9u8rksfj3xxzFiDl9wjg")
 
 # Get Your bot username
-BOT_USERNAME = getenv("BOT_USERNAME" , "LevinmusicBot_Bot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "BuKuyyMuSicKalbar_bot")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", "")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://pakeya2:userbot@cluster0.vva0b.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
 CLEANMODE_DELETE_MINS = int(
     getenv("CLEANMODE_MINS", "5")
@@ -39,7 +39,7 @@ EXTRA_PLUGINS = getenv(
 # Fill here the external plugins repo where plugins that you want to load
 EXTRA_PLUGINS_REPO = getenv(
     "EXTRA_PLUGINS_REPO",
-    "https://github.com/levine23/Extra-Plugin",
+    "https://github.com/TheChampu/Extra-Plugin",
 )
 
 # Your folder name in your extra plugins repo where all plugins stored
@@ -52,11 +52,11 @@ SONG_DOWNLOAD_DURATION = int(
 )  # Remember to give value in Minutes
 
 # You'll need a Private Group ID for this.
-LOGGER_ID = int(getenv("LOGGER_ID", "-1002514495816"))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1002766505312"))
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "").split())
+    map(int, getenv("OWNER_ID", "1986044327").split())
 )  # Input type must be interger
 
 ## Fill these variables if you're deploying on heroku.
@@ -67,7 +67,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/levine23/stres",
+    "https://t.me/pensioffc",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
@@ -76,10 +76,10 @@ GIT_TOKEN = getenv(
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/skandalbangettt"
+    "SUPPORT_CHANNEL", "https://t.me/badakmetamart"
 )  # Example:- https://t.me/akaChampu
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/mksyasayang"
+    "SUPPORT_GROUP", "https://t.me/badakmetamart"
 )  # Example:- https://t.me/TheChampuClub
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "False")
@@ -169,12 +169,12 @@ autoclean = []
 
 START_IMG_URL = getenv(
     "START_IMG_URL",
-    "https://files.catbox.moe/lxtxhr.jpg",
+    "https://files.catbox.moe/oi0758.jpg",
 )
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://files.catbox.moe/4whbu4.jpg",
+    "https://files.catbox.moe/chd2tg.jpg",
 )
 
 PLAYLIST_IMG_URL = getenv(
@@ -270,7 +270,7 @@ if GITHUB_REPO:
 
 
 if PING_IMG_URL:
-    if PING_IMG_URL != "https://telegra.ph/file/33591be403ae3eaae7217.jpg":
+    if PING_IMG_URL != "https://files.catbox.moe/chd2tg.jpg":
         if not re.match("(?:http|https)://", PING_IMG_URL):
             print(
                 "[ERROR] - Your PING_IMG_URL url is wrong. Please ensure that it starts with https://"
@@ -338,4 +338,4 @@ if TELEGRAM_VIDEO_URL:
         if not re.match("(?:http|https)://", TELEGRAM_VIDEO_URL):
             print(
                 "[ERROR] - Your TELEGRAM_VIDEO_URL url is wrong. Please ensure that it starts with https://"
-            )
+            )  
