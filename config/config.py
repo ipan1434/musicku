@@ -169,12 +169,12 @@ autoclean = []
 
 START_IMG_URL = getenv(
     "START_IMG_URL",
-    "https://files.catbox.moe/oi0758.jpg",
+    "https://files.catbox.moe/1ae5ot.jpg",
 )
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://files.catbox.moe/chd2tg.jpg",
+    "https://files.catbox.moe/1ae5ot.jpg",
 )
 
 PLAYLIST_IMG_URL = getenv(
@@ -184,7 +184,7 @@ PLAYLIST_IMG_URL = getenv(
 
 GLOBAL_IMG_URL = getenv(
     "GLOBAL_IMG_URL",
-    "https://files.catbox.moe/wpcqsu.jpg",
+    "https://files.catbox.moe/1ae5ot.jpg",
 )
 
 STATS_IMG_URL = getenv(
