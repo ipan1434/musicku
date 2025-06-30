@@ -12,10 +12,10 @@ API_ID = int(getenv("API_ID", "27883552"))
 API_HASH = getenv("API_HASH", "03e8a15853d2aa580c52aea314d26711")
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "7668365830:AAGuH_p4NxC6Cxi9u8rksfj3xxzFiDl9wjg")
+BOT_TOKEN = getenv("BOT_TOKEN", "7799420535:AAEaLmYfZF6Sp_6jPup0KBywxdVDnzlPs60")
 
 # Get Your bot username
-BOT_USERNAME = getenv("BOT_USERNAME" , "BuKuyyMuSicKalbar_bot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "watermoonMusicBOt")
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://pakeya2:userbot@cluster0.vva0b.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
@@ -52,11 +52,11 @@ SONG_DOWNLOAD_DURATION = int(
 )  # Remember to give value in Minutes
 
 # You'll need a Private Group ID for this.
-LOGGER_ID = int(getenv("LOGGER_ID", "-1002766505312"))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1002744466686"))
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "1986044327").split())
+    map(int, getenv("OWNER_ID", "2124032894").split())
 )  # Input type must be interger
 
 ## Fill these variables if you're deploying on heroku.
@@ -76,10 +76,10 @@ GIT_TOKEN = getenv(
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/badakmetamart"
+    "SUPPORT_CHANNEL", "https://t.ly/watermoons3x"
 )  # Example:- https://t.me/akaChampu
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/badakmetamart"
+    "SUPPORT_GROUP", "https://t.me/watermoonsexid"
 )  # Example:- https://t.me/TheChampuClub
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "False")
@@ -101,7 +101,7 @@ TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "5"))
 
 
 # Your Github Repo.. Will be shown on /start Command
-GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com/levine23/stres")
+GITHUB_REPO = getenv("GITHUB_REPO", "https://t.me/owennihh")
 
 
 # Spotify Client.. Get it from https://developer.spotify.com/dashboard
